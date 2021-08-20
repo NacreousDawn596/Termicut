@@ -1,9 +1,10 @@
 echo 'setting file'
 mkdir ~/.local/share/NacreousDawn596/
+mkdir ~/.local/share/NacreousDawn596/Termicut/
 cd ..
-mv -i termicut/ ~/.local/share/NacreousDawn596/
+mv Termicut/* ~/.local/share/NacreousDawn596/Termicut/
 sleep 1
-clear 
+clear
 echo 'configuring settings'
 sleep 1
 echo '' >> ~/.bashrc
@@ -13,4 +14,4 @@ echo '' >> ~/.bashrc
 rm ~/.local/share/NacreousDawn596/termicut/setup.sh
 clear
 echo 'done!'
-echo 'maintenant tu peux lancer le program en ecrivant short dans le terminal'
+echo 'now you can launche it after closing the terminals by writing short'
