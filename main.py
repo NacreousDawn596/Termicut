@@ -21,7 +21,7 @@ start()
 	print("is this right? y/n")
 	confirme = input("")
 	if confirme == "y":
-		command = "echo 'function {name} {' >> ~/.local/share/NacreousDawn596/termicut/.shortcut.sh"
+		command = "echo 'function {name}() {' >> ~/.local/share/NacreousDawn596/termicut/.shortcut.sh"
 		for com in command:
 			command = f"echo '{com}' >> ~/.local/share/NacreousDawn596/termicut/.shortcut.sh"
 			os.system(command)
