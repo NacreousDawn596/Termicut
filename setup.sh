@@ -13,4 +13,4 @@ echo '' >> ~/.bashrc
 rm ~/.local/share/NacreousDawn596/Termicut/setup.sh
 clear
 echo 'done!'
-echo 'maintenant tu peux lancer le program en ecrivant short dans le terminal'
+echo 'now you can launch it after reopening the terminal and writing short'
