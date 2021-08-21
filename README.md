@@ -9,4 +9,4 @@ git clone https://github.com/NacreousDawn596/Termicut
 cd Termicut
 ./setup.sh
 ```
-now you can launch it by writing short after reopening the terminal
+now you can launch it by writing short after reopening the terminal ☺️
