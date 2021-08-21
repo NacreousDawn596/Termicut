@@ -14,8 +14,8 @@ def start():
 			commands.append(shortcut)
 			short()
 	short()
-	print("shortcut's name: ", name)
-	print("commands :", end='')
+	print("shortcut's name: \n", name)
+	print("commands :")
 	for com in commands:
 		print(com, end='\n')
 	print("")
